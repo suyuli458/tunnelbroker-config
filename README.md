@@ -1,5 +1,6 @@
 # tunnelbroker
 #### 一键配置 he.net 的IPv6隧道
+* 许多VPS没有IPv6，某些云服务厂商更是把IPv6当**单独的服务**(*得加钱*)提供
 
 ---
 > [he.net](https://he.net)又称飓风电气，成立于1944年，以其全球领先的IPv6网络和隧道代理服务闻名，是全球最大的IPv6骨干网运营商之一。
@@ -15,7 +16,7 @@
 
 * 输入公网IP后，he.net会检查是否可用
 * 如果检测失败。请检查防火墙，放行ICMP入站
-* 隧道节点最好别选亚洲的香港新加坡日本，都是绕路的
+* 隧道节点最好别选亚洲的香港、新加坡、日本，都是绕路的
 
 3、记下几行参数`Server IPv4 Address`、`Client IPv4 Address`、`Client IPv6 Address`
 
