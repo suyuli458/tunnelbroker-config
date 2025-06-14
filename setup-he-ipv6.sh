@@ -3,7 +3,7 @@
 # === 用户配置区域 ===
 SERVER_IPV4="216.66.80.30"      # HE.net 提供的远程 IPv4
 CLIENT_IPV4="8.8.8.8"      # 你的 VPS 公网 IPv4
-CLIENT_IPV6="2001:470:1f13:1234::1/64"      # HE.net 分配的本地 IPv6
+CLIENT_IPV6="2001:470:1f13:1234::2/64"      # HE.net 分配的本地 IPv6
 TUNNEL_IFACE="he-ipv6"      # 接口名称，可自定义（建议保持 he-ipv6）
 # =====================
 
